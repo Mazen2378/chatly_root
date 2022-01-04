@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	height: 100vh;
+	max-width: 100vw;
+	position: relative;
+	background-color: #242933;
+}
+#root {
+	height: 100%;
+	width: 100%;
+}
+.register {
+	position: relative;
+	top: 25%;
+	width: 80%;
+	max-width: 400px;
+	height: 430px;
+	margin: 0 auto;
+}
+.register .container {
+	position: absolute;
+	width: 100%;
+	height: 95%;
+	background-color: #1c1f27;
+}
+.register .title {
+	color: #ec4c56;
+	position: relative;
+	margin: 25px 0 0px 25px;
+}
+.register form {
+	height: 220px;
+	width: 75%;
+	left: 12.5%;
+	position: absolute;
+	bottom: 15.5%;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-around;
+}
+.register label {
+	margin-bottom: 7px;
+	font-size: 20px;
+	color: #535c6d;
+	transition: 0.5s;
+}
+.active {
+	color: #ec4c56 !important;
+}
+
+.register input {
+	outline: none;
+	border: none;
+	background: none;
+	border-bottom: solid 1px #535c6d;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #f6f0e9;
+	transition: 0.5s;
+}
+.register input:focus {
+	border-bottom: #ec4c56 1px solid;
+}
+.register button {
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	transition: 0.5s;
+	background-color: #535c6d;
+	position: relative;
+	width: fit-content;
+	padding: 7.5px;
+}
+.register button:hover {
+	color: #f6f0e9;
+	background-color: #ec4c56;
+}
+
+.invalid {
+	color: #c40d19 !important;
+}
+small {
+	color: #f6f0e9;
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+}
+a {
+	color: #ec4c56;
+}
